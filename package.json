@@ -10,11 +10,12 @@
   "keywords": [
     "json-server,heroku, node, REST API"
   ],
-  "author": "Asad ALi",
+  "author": "Jesper Orb",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "json-server": "^0.16.1",
-    "json-server-auth": "^2.0.2"
+  "dependencies": {
+    "express": "^4.16.3",
+    "json-server": "^0.15",
+    "json-server-auth": "^2.0.2",
+    "stripe": "^8.121.0"
   }
 }
