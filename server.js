@@ -6,7 +6,7 @@ const path = require("path");
 var express = require('express')
 const router = jsonServer.router(path.join(__dirname, "db.json"));
 server.use('/static', express.static(path.join(__dirname, 'public')))
-
+// 
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
